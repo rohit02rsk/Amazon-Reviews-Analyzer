@@ -1,0 +1,14 @@
+README.md
+setup.py
+basic_scrapy_spider/__init__.py
+basic_scrapy_spider/items.py
+basic_scrapy_spider/middlewares.py
+basic_scrapy_spider/pipelines.py
+basic_scrapy_spider/settings.py
+basic_scrapy_spider/spiders/__init__.py
+basic_scrapy_spider/spiders/quotes.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

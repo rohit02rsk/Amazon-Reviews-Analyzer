@@ -1,0 +1,35 @@
+2023-03-25 00:32:05 [scrapy] DEBUG: Crawled (404) <GET https://proxy.scrapeops.io/v1/?api_key=f1e5b680-4e01-4798-af3c-c8ec61777b72&url=https%3A%2F%2Fwww.amazon.com%2Fproduct-reviews%2F%257Basin%257D%2F> (referer: None)
+2023-03-25 00:32:05 [scrapy] ERROR: Spider error processing <GET https://proxy.scrapeops.io/v1/?api_key=f1e5b680-4e01-4798-af3c-c8ec61777b72&url=https%3A%2F%2Fwww.amazon.com%2Fproduct-reviews%2F%257Basin%257D%2F> (referer: None)
+Traceback (most recent call last):
+  File "/home/manuraj/code/AMAZON SCRAPER/venv/lib/python3.10/site-packages/twisted/internet/defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/manuraj/code/AMAZON SCRAPER/venv/lib/python3.10/site-packages/scrapy/spiders/__init__.py", line 76, in parse
+    raise NotImplementedError(
+NotImplementedError: AmazonReviewsSpider.parse callback is not defined
+2023-03-25 00:32:05 [scrapy] INFO: Closing spider (finished)
+2023-03-25 00:32:05 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 43865,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 19.398425,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 3, 24, 19, 2, 5, 910310),
+ 'httpcompression/response_bytes': 98496,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 13,
+ 'log_count/WARNING': 3,
+ 'memusage/max': 68177920,
+ 'memusage/startup': 68177920,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/NotImplementedError': 1,
+ 'start_time': datetime.datetime(2023, 3, 24, 19, 1, 46, 511885)}
+2023-03-25 00:32:05 [scrapy] INFO: Spider closed (finished)

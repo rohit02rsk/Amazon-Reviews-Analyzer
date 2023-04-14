@@ -1,0 +1,79 @@
+body {
+  background-color: #ecf9ff;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.feature-card {
+  outline: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.fake {
+  /* color: white; */
+  background-color: #ffa69e;
+}
+.true {
+  background-color: #caff8a;
+}
+.cover-container {
+  max-width: 60vw;
+}
+.gap-10 {
+  gap: 10px;
+}
+.button {
+  width: 5%;
+}
+.active-custom {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.navbar {
+  /* background-color: #b9f3fc !important; */
+  background-color: #62cdff !important;
+}
+
+.h {
+  color: #0b2447 !important;
+  font-weight: 500;
+}
+
+.g {
+  /* background-color: #62cdff !important; */
+  background-color: #b9f3fc !important;
+  color: #2d2c2c;
+  font-weight: 500;
+}
+
+.c {
+  background-color: whitesmoke;
+}
+
+.collapsible-text .content {
+  max-height: 100px;
+  overflow: hidden;
+  transition: 0.2s ease-out !important;
+}
+
+.collapsible-text .content.expanded {
+  max-height: none;
+  transition: 0.2s ease-in !important;
+}
+
+.collapsible-text .toggle {
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: underline;
+}

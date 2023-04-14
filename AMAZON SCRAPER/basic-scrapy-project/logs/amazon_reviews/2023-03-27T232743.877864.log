@@ -1,0 +1,19 @@
+2023-03-27 23:27:44 [scrapy] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/manuraj/code/AMAZON SCRAPER/venv/lib/python3.10/site-packages/scrapy/core/engine.py", line 158, in _next_request
+    request = next(self.slot.start_requests)
+  File "/home/manuraj/code/AMAZON SCRAPER/basic-scrapy-project/basic_scrapy_spider/spiders/quotes.py", line 12, in start_requests
+    amazon_reviews_url = f'https://www.amazon.com/product-reviews/{self.cat}/'
+AttributeError: 'AmazonReviewsSpider' object has no attribute 'cat'
+2023-03-27 23:27:44 [scrapy] INFO: Closing spider (finished)
+2023-03-27 23:27:44 [scrapy] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.005232,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 3, 27, 17, 57, 44, 398166),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 68567040,
+ 'memusage/startup': 68567040,
+ 'start_time': datetime.datetime(2023, 3, 27, 17, 57, 44, 392934)}
+2023-03-27 23:27:44 [scrapy] INFO: Spider closed (finished)
